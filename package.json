@@ -4,6 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "build": "browserify src/www/assets/js/raw/app.js > src/www/assets/js/index.js",
+    "minify": "uglifyjs src/www/assets/js/index.js -o src/www/assets/js/index.js -c -m",
+
     "start": "node src/index.js"
   },
   "repository": {
