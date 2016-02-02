@@ -1,0 +1,19 @@
+{
+  "name": "website-plus-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leewalkergm/website-plus-application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leewalkergm/website-plus-application/issues"
+  },
+  "homepage": "https://github.com/leewalkergm/website-plus-application#readme"
+}
