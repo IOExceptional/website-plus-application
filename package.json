@@ -6,9 +6,7 @@
   "scripts": {
     "build": "browserify src/www/assets/js/raw/app.js > src/www/assets/js/index.js",
     "minify": "uglifyjs src/www/assets/js/index.js -o src/www/assets/js/index.min.js -c -m",
-
     "start": "node src/index.js",
-
     "prestart": "npm run build"
   },
   "repository": {
@@ -20,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/leewalkergm/website-plus-application/issues"
   },
-  "homepage": "https://github.com/leewalkergm/website-plus-application#readme"
+  "homepage": "https://github.com/leewalkergm/website-plus-application#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
